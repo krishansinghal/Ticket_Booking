@@ -1,0 +1,19 @@
+{
+  "name": "busticket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishan singhal",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.12",
+    "ethers": "^5.7.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.6"
+  }
+}
