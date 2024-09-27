@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
 import TicketBookingABI from '../artifacts/TicketBooking.json';
-import './TicketBooking.css';  // Import the CSS file
+import './TicketBooking.css';  
 
 const TicketBooking = () => {
     const [availableSeats, setAvailableSeats] = useState([]);
